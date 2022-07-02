@@ -1,0 +1,73 @@
+.contenedor-flex {
+    /* padding: 100px; */
+    margin: 0 auto;
+    width: 70%;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    /* align-items: stretch; */
+    /* align-content: flex-start; */
+}
+
+.hijo {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    /* display: block; */
+}
+
+
+/*mostrar con muchos div*/
+
+.uno {
+    /* height: 200px; */
+    display: flex;
+    /* order: 4; */
+    /* flex-grow: 3; */
+    /* flex-shrink: 2; */
+    /* flex-basis: 100px; */
+    /* align-self: flex-end; */
+}
+
+.dos {
+    /* height: 200px; */
+    display: flex;
+    /* flex-grow: 4; */
+}
+
+
+/*
+.tres {
+    display: flex;
+    order: 2;
+}
+
+.cuatro {
+    display: flex;
+    order: 3;
+} */
+
+
+/* .flexible {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} */
+
+
+/* h2,
+h4,
+img,
+p {
+    width: 45%;
+}
+
+
+
+.box {
+    display: flex;
+} */
